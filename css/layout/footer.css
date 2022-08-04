@@ -1,0 +1,18 @@
+section.footer{
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.footer div.footer__rodape{
+    width: 100%;
+    right: 3%; 
+    display: flex; 
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+section.footer div.footer__rodape img{
+    width: 3%;
+    right: 3%; 
+    margin: 10px;  
+}

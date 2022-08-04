@@ -1,0 +1,192 @@
+/* BOX 1 */
+section.experience{
+    margin: 32px 100px; 
+    padding: 32px 0;
+    background-color: var(--cor-de-fundo);
+}
+
+h2.experience__section__title{
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+section.experience div.experiencie__box{
+    justify-content: space-around;
+    align-content: flex-start;
+    display: flex;
+    margin: 20px 0px; 
+}
+
+section.experience div.experiencie__box img.experience__img{
+    width: 752px;
+    height: 406px;
+}
+
+section.experience div.experiencie__box div.experience__info{
+    padding: 2%;
+    width: 360px;
+    height: 286px;
+    align-self: flex-end;
+}
+
+div.experiencie__box div.experience__info h2{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+div.experiencie__box div.experience__info h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+div.experiencie__box div.experience__info div.experience__description span.experience__demo button.experience__botao--demo{
+    font-size: 1rem;
+    margin: 0 auto;
+    margin: 2rem 1rem 0 1rem;
+    width: 5rem;
+    min-width: 6rem;
+    height: 3em;
+    border-radius: 0.5rem;
+    transition: 1s all;
+    background-color: #146fe6;
+    color: #ebf3f6;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+div.experiencie__box div.experience__info div.experience__description span.experience__demo button.experience__botao--demo:hover{
+    transition: .2s all;
+    background-color: rgb(174, 208, 252);
+    color: rgb(8, 8, 8);
+    border-color: #0e7ac2;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.experiencie__box div.experience__info div.experience__description span.experience__repo button.experiencia__botao--repo{
+    font-size: 1rem;
+    margin: 0 auto;
+    margin: 2rem 1rem 0 1rem;
+    width: 5rem;
+    min-width: 6rem;
+    height: 3em;
+    border-radius: 0.5rem;
+    transition: 1s all;
+    background-color: #e8ebef;
+    color: #1d5bab ;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+div.experiencie__box div.experience__info div.experience__description span.experience__repo button.experiencia__botao--repo:hover{
+    transition: .2s all;
+    background-color: #586372 ;
+    color: rgb(252, 248, 248);
+    border-color: #141516;
+    border-width: 1px;
+    border-style: solid;
+} 
+
+/* BOX 2 */
+section.experience div.experiencie__box1{
+    justify-content: space-around;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px 0px; 
+}
+
+section.experience div.experiencie__box1 img.experience__img{
+    width: 752px;
+    height: 406px;
+}
+
+section.experience div.experiencie__box1 div.experience__info{
+    padding: 2%;
+    width: 360px;
+    height: 286px;
+    align-self: flex-end;
+}
+
+div.experiencie__box1 div.experience__info h2{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+div.experiencie__box1 div.experience__info h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+div.experiencie__box1 div.experience__info div.experience__description span.experience__demo button.experience__botao--demo{
+    font-size: 1rem;
+    margin: 0 auto;
+    margin: 2rem 1rem 0 1rem;
+    width: 5rem;
+    min-width: 6rem;
+    height: 3em;
+    border-radius: 0.5rem;
+    transition: 1s all;
+    background-color: #146fe6;
+    color: #ebf3f6;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+div.experiencie__box1 div.experience__info div.experience__description span.experience__demo button.experience__botao--demo:hover{
+    transition: .2s all;
+    background-color: rgb(174, 208, 252);
+    color: rgb(8, 8, 8);
+}
+
+div.experiencie__box1 div.experience__info div.experience__description span.experience__repo button.experiencia__botao--repo{
+    font-size: 1rem;
+    margin: 0 auto;
+    margin: 2rem 1rem 0 1rem;
+    width: 5rem;
+    min-width: 6rem;
+    height: 3em;
+    border-radius: 0.5rem;
+    transition: 1s all;
+    background-color: #e8ebef;
+    color: #1d5bab ;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+div.experiencie__box1 div.experience__info div.experience__description span.experience__repo button.experiencia__botao--repo:hover{
+    transition: .2s all;
+    background-color: #586372 ;
+    color: rgb(252, 248, 248);
+    border-color: #141516;
+    border-width: 1px;
+    border-style: solid;
+}

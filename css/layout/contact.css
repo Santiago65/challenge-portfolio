@@ -1,0 +1,81 @@
+section.formcontato{
+    width: 80%;
+    margin: 115px;
+    margin-top: 15%;
+}
+
+.formcontato, .formcontato__contacto, .formcontato--esquerda{
+    display: flex;
+}
+
+.formcontato__img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.formcontato__img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    filter: opacity(.5);
+
+}
+
+.formcontato__title{
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.formcontato__subtext{
+    font-weight: 100;
+    padding-left: 20px;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__input{
+    display: flex;
+    margin: 20px;
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #1063f3
+}
+
+.formcontato__textarea{
+    display: flex;
+    margin: 20px;
+    width: 80%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #1063f3
+}
+
+.formcontato__botao{
+    display: flex;
+    width: 20%;
+    height: 50px;
+    margin: 20px;
+    padding-top: 15px;
+    background: #4583d5;
+    border: 0;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-weight: 100;
+}
+
+.formcontato__botao:hover{
+    background: rgb(233, 99, 99);
+    transition: 1s;
+}
